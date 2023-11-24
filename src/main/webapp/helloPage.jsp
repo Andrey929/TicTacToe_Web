@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: andrey
@@ -6,11 +7,18 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 <head>
-    <title>Title</title>
+    <style>
+        <%@include file="WEB-INF/static/main.css"%>
+    </style>
+    <title>Hello</title>
 </head>
 <body>
-<h2>HelloWorld</h2>
+<img src="WEB-INF/Pictures/firstP.png" alt="">
+<h2>В какой режим поиграем ?</h2>
+<button id="buttonWithPC" type="button" class="btn b1" onclick="window.location = '/main?pos=1'"> 1vsPC </button>
+<button id="buttonWithPlayer" type="button" class="btn b2" onclick="window.location = '/main?pos=2'"> 1vs1 </button>
 </body>
 </html>

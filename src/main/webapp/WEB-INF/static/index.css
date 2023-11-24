@@ -1,24 +1,46 @@
 body{
-    background-color: #F2E9E4;
+    background-color: #222;
 }
 td {
-    border: 3px solid black;
+    border: 2px solid #fff;
     padding: 10px;
     border-collapse: separate;
     margin: 10px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     font-size: 50px;
     text-align: center;
     empty-cells: show;
 }
 table{
     margin: auto;
+    color: #fff;
 }
 button{
     display: block;
     margin: 0 auto;
     height: 2cm;
     width: 4cm;
-    background-color: brown;
+    background: transparent;
+    border: 2px solid #F2E9E4;
+    border-radius: 12px;
+    color: #ffffff;
+    top: 5px;
  }
+button:hover{
+    border-radius: 0;
+    border-color: peachpuff;
+}
+h1{
+    margin-left: 47%;
+    color: white;
+}
+.btRes{
+    margin-top: 0.5cm;
+}
+.btToMain{
+    margin-top: 0.3cm;
+}
+.btToMain:hover{
+    border-color: brown;
+}
